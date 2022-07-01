@@ -1,0 +1,268 @@
+body {
+    font-family: 'Helvetica Neue',sans-serif!important;
+}
+
+.row {
+    margin: unset!important;
+}
+.logo-img {
+    margin-left: 35%;
+}
+.login {
+    margin-left: 55%;
+}
+.first-section {
+    background: url(img/section-bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.first-container {
+    max-width: 1500px!important;
+    padding-top: 35px;
+}
+.headline {
+    font-size: 52px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+.header-content {
+    font-weight: 100;
+    line-height: 46px;
+    font-size: 26px;
+    color: white;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.vid-container {
+    max-width: 950px!important;
+}
+.second-container, .third-container, .fourth-container {
+    max-width: 1300px!important;
+}
+.start-button {
+    background-color: #FB5757;
+    padding: 22px 20px;
+    border-radius: 50px;
+    margin: 0 auto;
+    width: 680px;
+    border-color: unset;
+    border-width: unset;
+    border-style: unset;
+    color: white;
+    font-size: 30px;
+}
+.second-headline, .third-headline {
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 35px;
+}
+.f-col {
+    border-style: dashed;
+    padding: 20px!important;
+}
+.col-caption {
+    font-size: 24px;
+    margin-top: 20px;
+}
+.third-section {
+    background: url(img/section-bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.third-headline {
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 35px;
+    color: white;
+}
+
+.s-col {
+    background-color: white;
+    border-radius: 5px;
+    max-width: 400px!important;
+    margin: 10px;
+}
+.col2-caption {
+    padding-top: 10%;
+    line-height: 1;
+    font-size: 18px;
+}
+.col2-content {
+    font-size: 14px;
+    font-weight: 200;
+    padding-bottom: 9px;
+    color: #666;
+}
+.fourth-section {
+    background-color: black;
+    
+}
+
+.ticker {
+    display: table;
+    font-family: arial,sans-serif;
+    font-size: 110px;
+    font-weight: 700;
+    height: 150px;
+    line-height: 130px;
+    margin: 0 auto 10px;
+    position: relative;
+}
+.ticker li {
+    display: table-cell;
+    float: left;
+    width: 105px;
+    border-radius: 10px;
+    font-size: 110px;
+    font-weight: 700;
+    height: 130px;
+    line-height: 130px;
+    margin: 0 auto 10px;
+    position: relative;
+    margin-left: 15px;
+    color: white;
+}
+.fourth-caption {
+    font-size: 26px;
+    color: white;
+}
+.start-membership {
+    padding: 22px 20px;
+    margin: 0 auto;
+    background-color: #FB5757;
+    border-radius: 50px;
+    font-size: 30px;
+    width: 680px;
+    color: white;
+}
+.button-subtext {
+    margin: 0 0 17px;
+    font-size: 12px;
+    color: red;
+    text-align: center;
+}
+.testimonial-section {
+    background-color: #bfbfbf;
+}
+.testimonial-headline {
+    font-size: 45px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    
+}
+.testi-vid-caption {
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 23px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.testi-second-row {
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.fifth-headline {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 46px;
+    color: white;
+    padding-top: 3%;
+}
+.fifth-caption {
+    font-size: 26px;
+    color: white;
+}
+.footer-links a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px)
+{
+.logo-img {
+    margin-left: unset;
+}
+
+.login {
+    margin-left: unset;
+    float: right;
+}
+
+.headline {
+    line-height: 1.2;
+    font-size: 30px;
+}
+.header-content {
+    padding: 2%;
+    line-height: 1.5;
+    padding-bottom: 0;
+}
+
+.start-button {
+    padding: 13px 43px;
+    font-size: 22px;
+    width: unset;
+}
+.second-headline {
+    font-size: 26px;
+}
+.first-row {
+    padding-bottom: 5%;
+}
+
+.third-headline {
+    font-size: 25px;
+    line-height: 1;
+}
+.s-col {
+    margin: 0;
+    margin-bottom: 10px;
+}
+.fourth-container {
+    margin: unset!important;
+    padding: unset!important;
+}
+.ticker {
+    text-align: center;
+}
+.ticker ul {
+    display: inline-table;
+    padding-left: 0!important;
+}
+.ticker li {
+    display: inline;
+    width: auto;
+    font-size: 25px;
+    height: auto;
+    line-height: 50px;
+    margin: 0 5px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.start-button2 {
+    padding: 13px 37px;
+    font-size: 18px;
+}
+.testi-vid-caption {
+    padding-top: 5%;
+}
+}

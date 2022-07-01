@@ -1,0 +1,45 @@
+body {
+    font-family: 'Helvetica Neue',sans-serif!important;
+}
+
+.row {
+    margin: unset!important;
+}
+
+.first-section {
+    background: url(img/section-bg1.jpg);
+
+.first-container {
+    max-width: 1500px!important;
+
+
+.headline {
+    font-size: 52px;
+    font-weight: 700;
+
+
+.header-content {
+    font-weight: 100;
+    line-height: 46px;
+    font-size: 26px;
+
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+
+.vid-container {
+    max-width: 950px!important;
+}
+.second-container, .third-container, .fourth-container {
+    max-width: 1300px!important;
+}
+
+
+.start-button {
+    background-color: #FB5757;
+    padding: 22px 20px;
+    border-radius: 50px;
+    margin: 0 auto;
+    width: 680px;
